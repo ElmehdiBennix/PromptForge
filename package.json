@@ -2,10 +2,13 @@
   "name": "promptforge",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/main.js",
+  "bin": {
+    "gema": "src/main.js"
+  },
   "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "node src/main.js"
   },
   "bugs": {
     "url": "https://github.com/ElmehdiBennix/PromptForge/issues"
