@@ -63,8 +63,6 @@ export async function generateExpertPersona(problem) {
 }
 
 export function launchGeminiCLI(persona, problem) {
-    console.log(chalk.blue('--- Generating Final Prompt for gemini-cli ---'));
-
     const finalPrompt = `${persona}\n\nMy problem is: ${problem}`;
 
     const command = 'gemini';
