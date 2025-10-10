@@ -57,8 +57,6 @@ export async function generateExpertPersona(problem) {
     contents: prompt,
   });
 
-  console.log(chalk.green(`--- ${response.text} ---`));
-
   return response.text;
 }
 
